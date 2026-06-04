@@ -1,0 +1,100 @@
+```html
+<div style="max-width:1100px;margin:auto;font-family:Arial,Helvetica,sans-serif;color:#24323f;line-height:1.6;">
+
+  <div style="background:linear-gradient(135deg,#1b263b,#415a77,#778da9);color:white;padding:34px;text-align:center;border-radius:14px;">
+    <div style="font-size:64px;">👻📱🧠</div>
+    <h1 style="margin:8px 0;">Urban Legends in the Digital Age</h1>
+    <p style="font-size:18px;margin-bottom:0;">
+      How do mysterious stories spread, and why do people interpret the same event differently?
+    </p>
+  </div>
+
+  <div style="background:#f7fbff;border-left:8px solid #173b57;padding:22px;margin-top:24px;border-radius:8px;">
+    <h2 style="color:#173b57;margin-top:0;">🎥 Watch Like a Sociologist</h2>
+    <p>
+      Before opening the assignment, watch this short video and think about how people create meaning from mysterious or unclear events.
+    </p>
+    <ul>
+      <li>What do you think happened?</li>
+      <li>Why might different people interpret the same video differently?</li>
+      <li>Why do stories like this spread quickly online?</li>
+    </ul>
+  </div>
+
+  <div style="text-align:center;background:#ffffff;padding:24px;margin-top:24px;border:1px solid #d8d8d8;border-radius:12px;">
+    <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@anthony___moo/video/7288261773377965343" data-video-id="7288261773377965343" style="max-width:605px;min-width:325px;margin:auto;">
+      <section>
+        <a target="_blank" title="@anthony___moo" href="https://www.tiktok.com/@anthony___moo?refer=embed">@anthony___moo</a>
+        is this the grim reaper?
+      </section>
+    </blockquote>
+    <script async src="https://www.tiktok.com/embed.js"></script>
+
+    <p style="margin-top:18px;">
+      <a href="https://www.tiktok.com/@anthony___moo/video/7288261773377965343" target="_blank" style="background:#173b57;color:white;padding:10px 14px;text-decoration:none;border-radius:8px;display:inline-block;">
+        Open Video in New Tab
+      </a>
+    </p>
+  </div>
+
+  <div style="background:#fffdf7;border-left:8px solid #b99a52;padding:22px;margin-top:24px;border-radius:8px;">
+    <h2 style="color:#173b57;margin-top:0;">🧠 Think Like a Sociologist</h2>
+    <p>
+      Urban legends are not only about whether a story is true or false. Sociologists also ask why people believe certain stories, why they spread, and what fears or values they reveal.
+    </p>
+    <p>
+      This video connects especially well to <strong>symbolic interactionism</strong> because people may see the same event but assign different meanings to it.
+    </p>
+  </div>
+
+  <div style="background:#ffffff;padding:24px;margin-top:24px;border:1px solid #d8d8d8;border-radius:12px;">
+    <h2 style="color:#173b57;margin-top:0;">🔎 Quick Reflection</h2>
+    <p><strong>What do you think is most important sociologically?</strong></p>
+
+    <button onclick="urbanReveal('meaning')" style="background:#173b57;color:white;padding:12px 16px;border:none;border-radius:8px;margin:5px;cursor:pointer;">💬 Meaning</button>
+    <button onclick="urbanReveal('fear')" style="background:#70421f;color:white;padding:12px 16px;border:none;border-radius:8px;margin:5px;cursor:pointer;">😨 Fear</button>
+    <button onclick="urbanReveal('media')" style="background:#245342;color:white;padding:12px 16px;border:none;border-radius:8px;margin:5px;cursor:pointer;">📱 Social Media</button>
+    <button onclick="urbanReveal('all')" style="background:#743449;color:white;padding:12px 16px;border:none;border-radius:8px;margin:5px;cursor:pointer;">🧠 All of These</button>
+
+    <div id="urbanResult" style="margin-top:20px;"></div>
+  </div>
+
+  <div style="background:#173b57;color:white;padding:24px;margin-top:24px;border-radius:12px;">
+    <h2 style="margin-top:0;">📖 Urban Legends Assignment</h2>
+    <p>
+      Now open the assignment below and apply sociological thinking to urban legends.
+    </p>
+
+    <p style="text-align:center;">
+      <img style="border:0;" title="Image of lady in white with Urban Legends on bottom." src="https://rccc.instructure.com/courses/359/files/16622/preview" alt="Image of lady in white with Urban Legends on bottom." width="352" height="528" data-api-endpoint="https://rccc.instructure.com/api/v1/courses/359/files/16622" data-api-returntype="File" />
+    </p>
+
+    <iframe style="border:none;background:white;" src="https://rccc.instructure.com/courses/359/files/16499/preview" width="100%" height="1000" loading="lazy" data-api-endpoint="https://rccc.instructure.com/api/v1/courses/359/files/16499" data-api-returntype="File"></iframe>
+  </div>
+
+</div>
+
+<script>
+function urbanReveal(choice){
+  let message = "";
+
+  if(choice === "meaning"){
+    message = "<div style='background:#e8f1f8;padding:18px;border-left:8px solid #173b57;border-radius:8px;'><h3>💬 Meaning</h3><p>Yes. Symbolic interactionism helps us see how people assign meaning to unclear events.</p></div>";
+  }
+
+  if(choice === "fear"){
+    message = "<div style='background:#fff2e6;padding:18px;border-left:8px solid #70421f;border-radius:8px;'><h3>😨 Fear</h3><p>Yes. Urban legends often reflect social fears about danger, death, strangers, technology, or the unknown.</p></div>";
+  }
+
+  if(choice === "media"){
+    message = "<div style='background:#eef6f2;padding:18px;border-left:8px solid #245342;border-radius:8px;'><h3>📱 Social Media</h3><p>Yes. Social media can spread mysterious stories quickly because they are emotional, visual, and easy to share.</p></div>";
+  }
+
+  if(choice === "all"){
+    message = "<div style='background:#e8f7ec;padding:18px;border-left:8px solid green;border-radius:8px;'><h3>✅ Best Answer: All of These</h3><p>Urban legends involve meaning, fear, media, storytelling, and shared culture. That is why they are sociologically interesting.</p></div>";
+  }
+
+  document.getElementById("urbanResult").innerHTML = message;
+}
+</script>
+```
